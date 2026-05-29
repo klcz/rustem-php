@@ -2,3 +2,5 @@
 /examples/mini-app/
 Cargo.lock
 dist-linux
+/.idea
+log/rustenphp-error.log
