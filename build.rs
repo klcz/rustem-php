@@ -1,5 +1,3 @@
-use std::process::Command;
-
 fn main() {
     #[cfg(windows)]
     windows();
@@ -10,7 +8,7 @@ fn main() {
 
 #[cfg(windows)]
 fn windows() {
-    println!(r"cargo:rustc-link-search=native=C:\Users\korom\.config\herd\bin\php82");
+    println!(r"cargo:rustc-link-search=native=D:\php_sdk\phpdev\vs17");
     println!("cargo:rustc-link-lib=dylib=php8embed");
 }
 
